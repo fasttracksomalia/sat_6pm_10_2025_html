@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Lets learn HTML forms</h1>
+
+    <form action="https://google.com" method="get">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="firstName">First Name</label>
+        <input id="firstName" name="firstName" type="text" />
+        <br />
+
+        <label for="lastName">Last Name</label>
+        <input id="lastName" name="lastName" type="text" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Address</legend>
+
+        <label for="houseNumber">House Number</label>
+        <input id="houseNumber" name="houseNumber" type="text" />
+        <br />
+
+        <label for="streetName">Street Name</label>
+        <input id="streetName" name="streetName" type="text" />
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
